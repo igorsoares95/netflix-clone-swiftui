@@ -23,6 +23,7 @@
 		8B3A8C7925A4071400DAFABF /* GlobalHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3A8C7825A4071400DAFABF /* GlobalHelpers.swift */; };
 		8B3A8C7A25A4071400DAFABF /* GlobalHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3A8C7825A4071400DAFABF /* GlobalHelpers.swift */; };
 		8B3A8C7E25A408F900DAFABF /* HomeVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3A8C7D25A408F900DAFABF /* HomeVM.swift */; };
+		8B8E9EF625E4732B008DC44C /* CustomTabSwitcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8E9EF525E4732B008DC44C /* CustomTabSwitcher.swift */; };
 		8BAD12B025AB5CE3000DCB53 /* PlayButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BAD12AF25AB5CE3000DCB53 /* PlayButton.swift */; };
 		8BAD12B325AB5CE7000DCB53 /* PlayButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BAD12AF25AB5CE3000DCB53 /* PlayButton.swift */; };
 		8BAD12B725AB6E3A000DCB53 /* TopRowButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BAD12B625AB6E3A000DCB53 /* TopRowButtons.swift */; };
@@ -47,6 +48,7 @@
 		8B3A8C7325A406BC00DAFABF /* StandardHomeMovie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandardHomeMovie.swift; sourceTree = "<group>"; };
 		8B3A8C7825A4071400DAFABF /* GlobalHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalHelpers.swift; sourceTree = "<group>"; };
 		8B3A8C7D25A408F900DAFABF /* HomeVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVM.swift; sourceTree = "<group>"; };
+		8B8E9EF525E4732B008DC44C /* CustomTabSwitcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabSwitcher.swift; sourceTree = "<group>"; };
 		8BAD12AF25AB5CE3000DCB53 /* PlayButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayButton.swift; sourceTree = "<group>"; };
 		8BAD12B625AB6E3A000DCB53 /* TopRowButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopRowButtons.swift; sourceTree = "<group>"; };
 		8BB5DE2425E2D6D2009A7A9C /* MovieDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetail.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 				8BB5DE1E25E2D4A6009A7A9C /* HomeViews */,
 				8BAD12B625AB6E3A000DCB53 /* TopRowButtons.swift */,
 				8BB5DE2425E2D6D2009A7A9C /* MovieDetail.swift */,
+				8B8E9EF525E4732B008DC44C /* CustomTabSwitcher.swift */,
 				8B3A8C3825A401C300DAFABF /* Info.plist */,
 			);
 			path = iOS;
@@ -273,6 +276,7 @@
 				8B3A8C7425A406BC00DAFABF /* StandardHomeMovie.swift in Sources */,
 				8BB5DE2925E2DD44009A7A9C /* Episode.swift in Sources */,
 				8B20F67425A5574C00DE079D /* TopMoviePreview.swift in Sources */,
+				8B8E9EF625E4732B008DC44C /* CustomTabSwitcher.swift in Sources */,
 				8B3A8C6F25A4066000DAFABF /* Movie.swift in Sources */,
 				8B3A8C3025A401C000DAFABF /* buildnextflix2App.swift in Sources */,
 				8B20F67925A5607700DE079D /* SmallVerticalButton.swift in Sources */,
