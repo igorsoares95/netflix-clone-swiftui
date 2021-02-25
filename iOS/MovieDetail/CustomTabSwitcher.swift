@@ -10,6 +10,8 @@ import SwiftUI
 struct CustomTabSwitcher: View {
   
   @State private var currentTab: CustomTab = .episodes
+  @Binding var showSeasonPicker: Bool
+  @Binding var selectedSeason: Int
   
   var tabs: [CustomTab]
   var movie: Movie
@@ -50,14 +52,7 @@ struct CustomTabSwitcher: View {
       
       switch currentTab {
       case .episodes:
-        
-        SmallVerticalButton(text: "TEST",
-                            isOnImage: "",
-                            isOffImage: "",
-                            isOn: true) {
-          //
-        }
-        
+        EpisodesView(episodes: movie.episodes ?? [], showSeasonPicker: $showSeasonPicker, selectedSeason: $selectedSeason)
       case .trailers:
         TrailerList(trailers: movie.trailers)
       case .more:
@@ -78,7 +73,7 @@ struct CustomTabSwitcher_Previews: PreviewProvider {
   static var previews: some View {
     ZStack {
       Color.black.edgesIgnoringSafeArea(.all)
-      CustomTabSwitcher(tabs: [.episodes, .trailers, .more], movie: exampleMovie1)
+      CustomTabSwitcher(showSeasonPicker: .constant(false), selectedSeason: .constant(1), tabs: [.episodes, .trailers, .more], movie: exampleMovie1)
     }
   }
 }
